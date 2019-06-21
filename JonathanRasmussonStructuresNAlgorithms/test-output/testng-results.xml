@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-06-21T09:53:32Z" name="Default suite" finished-at="2019-06-21T09:53:32Z" duration-ms="80">
+    <groups>
+    </groups>
+    <test started-at="2019-06-21T09:53:32Z" name="Default test" finished-at="2019-06-21T09:53:32Z" duration-ms="80">
+      <class name="datastructures.DynamicArrayTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:datastructures.DynamicArrayTest@3bf7ca37]" started-at="2019-06-21T09:53:32Z" name="setup" finished-at="2019-06-21T09:53:32Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Contains()[pri:0, instance:datastructures.DynamicArrayTest@3bf7ca37]" started-at="2019-06-21T09:53:32Z" name="Contains" finished-at="2019-06-21T09:53:32Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contains -->
+        <test-method signature="Delete()[pri:0, instance:datastructures.DynamicArrayTest@3bf7ca37]" started-at="2019-06-21T09:53:32Z" name="Delete" finished-at="2019-06-21T09:53:32Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:datastructures.DynamicArrayTest@3bf7ca37]" started-at="2019-06-21T09:53:32Z" name="setup" finished-at="2019-06-21T09:53:32Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:datastructures.DynamicArrayTest@3bf7ca37]" started-at="2019-06-21T09:53:32Z" name="setup" finished-at="2019-06-21T09:53:32Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="GetAndSet()[pri:0, instance:datastructures.DynamicArrayTest@3bf7ca37]" started-at="2019-06-21T09:53:32Z" name="GetAndSet" finished-at="2019-06-21T09:53:32Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetAndSet -->
+        <test-method signature="Insert()[pri:0, instance:datastructures.DynamicArrayTest@3bf7ca37]" started-at="2019-06-21T09:53:32Z" name="Insert" finished-at="2019-06-21T09:53:32Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Insert -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:datastructures.DynamicArrayTest@3bf7ca37]" started-at="2019-06-21T09:53:32Z" name="setup" finished-at="2019-06-21T09:53:32Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- datastructures.DynamicArrayTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
