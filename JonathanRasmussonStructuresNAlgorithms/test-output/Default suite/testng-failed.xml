@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="datastructures.DynamicArrayTest">
+      <class name="datastructures.LinkedListTest">
         <methods>
-          <include name="Insert"/>
-          <include name="Delete"/>
+          <include name="DeleteValue"/>
+          <include name="Setup"/>
         </methods>
-      </class> <!-- datastructures.DynamicArrayTest -->
+      </class> <!-- datastructures.LinkedListTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

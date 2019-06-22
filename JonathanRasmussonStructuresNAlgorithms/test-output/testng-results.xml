@@ -1,45 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-06-21T09:53:32Z" name="Default suite" finished-at="2019-06-21T09:53:32Z" duration-ms="80">
+  <suite started-at="2019-06-22T06:47:36Z" name="Default suite" finished-at="2019-06-22T06:47:36Z" duration-ms="130">
     <groups>
     </groups>
-    <test started-at="2019-06-21T09:53:32Z" name="Default test" finished-at="2019-06-21T09:53:32Z" duration-ms="80">
-      <class name="datastructures.DynamicArrayTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:datastructures.DynamicArrayTest@3bf7ca37]" started-at="2019-06-21T09:53:32Z" name="setup" finished-at="2019-06-21T09:53:32Z" duration-ms="10" status="PASS">
+    <test started-at="2019-06-22T06:47:36Z" name="Default test" finished-at="2019-06-22T06:47:36Z" duration-ms="130">
+      <class name="datastructures.LinkedListTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:datastructures.LinkedListTest@79079097]" started-at="2019-06-22T06:47:36Z" name="Setup" finished-at="2019-06-22T06:47:36Z" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Contains()[pri:0, instance:datastructures.DynamicArrayTest@3bf7ca37]" started-at="2019-06-21T09:53:32Z" name="Contains" finished-at="2019-06-21T09:53:32Z" duration-ms="12" status="PASS">
+        </test-method> <!-- Setup -->
+        <test-method signature="AddBack()[pri:0, instance:datastructures.LinkedListTest@79079097]" started-at="2019-06-22T06:47:36Z" name="AddBack" finished-at="2019-06-22T06:47:36Z" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Contains -->
-        <test-method signature="Delete()[pri:0, instance:datastructures.DynamicArrayTest@3bf7ca37]" started-at="2019-06-21T09:53:32Z" name="Delete" finished-at="2019-06-21T09:53:32Z" duration-ms="2" status="PASS">
+        </test-method> <!-- AddBack -->
+        <test-method signature="AddFront()[pri:0, instance:datastructures.LinkedListTest@79079097]" started-at="2019-06-22T06:47:36Z" name="AddFront" finished-at="2019-06-22T06:47:36Z" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Delete -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:datastructures.DynamicArrayTest@3bf7ca37]" started-at="2019-06-21T09:53:32Z" name="setup" finished-at="2019-06-21T09:53:32Z" duration-ms="0" status="PASS">
+        </test-method> <!-- AddFront -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:datastructures.LinkedListTest@79079097]" started-at="2019-06-22T06:47:36Z" name="Setup" finished-at="2019-06-22T06:47:36Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:datastructures.DynamicArrayTest@3bf7ca37]" started-at="2019-06-21T09:53:32Z" name="setup" finished-at="2019-06-21T09:53:32Z" duration-ms="1" status="PASS">
+        </test-method> <!-- Setup -->
+        <test-method signature="Clear()[pri:0, instance:datastructures.LinkedListTest@79079097]" started-at="2019-06-22T06:47:36Z" name="Clear" finished-at="2019-06-22T06:47:36Z" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="GetAndSet()[pri:0, instance:datastructures.DynamicArrayTest@3bf7ca37]" started-at="2019-06-21T09:53:32Z" name="GetAndSet" finished-at="2019-06-21T09:53:32Z" duration-ms="4" status="PASS">
+        </test-method> <!-- Clear -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:datastructures.LinkedListTest@79079097]" started-at="2019-06-22T06:47:36Z" name="Setup" finished-at="2019-06-22T06:47:36Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GetAndSet -->
-        <test-method signature="Insert()[pri:0, instance:datastructures.DynamicArrayTest@3bf7ca37]" started-at="2019-06-21T09:53:32Z" name="Insert" finished-at="2019-06-21T09:53:32Z" duration-ms="2" status="PASS">
+        </test-method> <!-- Setup -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:datastructures.LinkedListTest@79079097]" started-at="2019-06-22T06:47:36Z" name="Setup" finished-at="2019-06-22T06:47:36Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Insert -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:datastructures.DynamicArrayTest@3bf7ca37]" started-at="2019-06-21T09:53:32Z" name="setup" finished-at="2019-06-21T09:53:32Z" duration-ms="0" status="PASS">
+        </test-method> <!-- Setup -->
+        <test-method signature="DeleteValue()[pri:0, instance:datastructures.LinkedListTest@79079097]" started-at="2019-06-22T06:47:36Z" name="DeleteValue" finished-at="2019-06-22T06:47:36Z" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-      </class> <!-- datastructures.DynamicArrayTest -->
+        </test-method> <!-- DeleteValue -->
+        <test-method signature="SizeAndGetSize()[pri:0, instance:datastructures.LinkedListTest@79079097]" started-at="2019-06-22T06:47:36Z" name="SizeAndGetSize" finished-at="2019-06-22T06:47:36Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SizeAndGetSize -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:datastructures.LinkedListTest@79079097]" started-at="2019-06-22T06:47:36Z" name="Setup" finished-at="2019-06-22T06:47:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+      </class> <!-- datastructures.LinkedListTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
