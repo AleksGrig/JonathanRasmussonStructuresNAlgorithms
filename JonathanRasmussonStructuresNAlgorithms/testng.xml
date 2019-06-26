@@ -5,6 +5,7 @@
     <classes>
       <class name="datastructures.LinkedListTest"/>
       <class name="datastructures.DynamicArrayTest"/>
+      <class name="datastructures.MaxHeapTest"></class>
     </classes>
   </test>
 </suite> 
