@@ -1,37 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-06-26T12:54:59Z" name="Default suite" finished-at="2019-06-26T12:54:59Z" duration-ms="143">
+  <suite started-at="2019-06-27T11:17:09Z" name="Default suite" finished-at="2019-06-27T11:18:07Z" duration-ms="58120">
     <groups>
     </groups>
-    <test started-at="2019-06-26T12:54:59Z" name="Default test" finished-at="2019-06-26T12:54:59Z" duration-ms="143">
-      <class name="datastructures.MaxHeapTest">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:datastructures.MaxHeapTest@3c9754d8]" started-at="2019-06-26T12:54:59Z" name="Setup" finished-at="2019-06-26T12:54:59Z" duration-ms="19" status="PASS">
+    <test started-at="2019-06-27T11:17:09Z" name="Default test" finished-at="2019-06-27T11:18:07Z" duration-ms="58120">
+      <class name="algorithms.FibonacciTest">
+        <test-method signature="FibonacciMemoized()[pri:0, instance:algorithms.FibonacciTest@233795b6]" started-at="2019-06-27T11:17:09Z" name="FibonacciMemoized" finished-at="2019-06-27T11:17:09Z" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="ExtractMax()[pri:0, instance:datastructures.MaxHeapTest@3c9754d8]" started-at="2019-06-26T12:54:59Z" name="ExtractMax" finished-at="2019-06-26T12:54:59Z" duration-ms="28" status="PASS">
+        </test-method> <!-- FibonacciMemoized -->
+        <test-method signature="FibonacciNaive()[pri:0, instance:algorithms.FibonacciTest@233795b6]" started-at="2019-06-27T11:17:09Z" name="FibonacciNaive" finished-at="2019-06-27T11:17:09Z" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ExtractMax -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:datastructures.MaxHeapTest@3c9754d8]" started-at="2019-06-26T12:54:59Z" name="Setup" finished-at="2019-06-26T12:54:59Z" duration-ms="0" status="PASS">
+        </test-method> <!-- FibonacciNaive -->
+        <test-method signature="RecordTimeMemoized()[pri:0, instance:algorithms.FibonacciTest@233795b6]" started-at="2019-06-27T11:17:09Z" name="RecordTimeMemoized" finished-at="2019-06-27T11:17:38Z" duration-ms="29613" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="Insert()[pri:0, instance:datastructures.MaxHeapTest@3c9754d8]" started-at="2019-06-26T12:54:59Z" name="Insert" finished-at="2019-06-26T12:54:59Z" duration-ms="0" status="PASS">
+        </test-method> <!-- RecordTimeMemoized -->
+        <test-method signature="RecordTimeNaive()[pri:0, instance:algorithms.FibonacciTest@233795b6]" started-at="2019-06-27T11:17:38Z" name="RecordTimeNaive" finished-at="2019-06-27T11:18:07Z" duration-ms="28409" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Insert -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:datastructures.MaxHeapTest@3c9754d8]" started-at="2019-06-26T12:54:59Z" name="Setup" finished-at="2019-06-26T12:54:59Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="PeekMax()[pri:0, instance:datastructures.MaxHeapTest@3c9754d8]" started-at="2019-06-26T12:54:59Z" name="PeekMax" finished-at="2019-06-26T12:54:59Z" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PeekMax -->
-      </class> <!-- datastructures.MaxHeapTest -->
+        </test-method> <!-- RecordTimeNaive -->
+      </class> <!-- algorithms.FibonacciTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
