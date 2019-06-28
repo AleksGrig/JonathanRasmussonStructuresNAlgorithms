@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="algorithms.FibonacciTest">
+      <class name="algorithms.SortTest">
         <methods>
-          <include name="RecordTimeMemoized"/>
+          <include name="Setup"/>
+          <include name="InsertionSort"/>
         </methods>
-      </class> <!-- algorithms.FibonacciTest -->
+      </class> <!-- algorithms.SortTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
