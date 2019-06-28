@@ -1,29 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-06-27T11:17:09Z" name="Default suite" finished-at="2019-06-27T11:18:07Z" duration-ms="58120">
+  <suite started-at="2019-06-28T12:32:30Z" name="Default suite" finished-at="2019-06-28T12:32:30Z" duration-ms="80">
     <groups>
     </groups>
-    <test started-at="2019-06-27T11:17:09Z" name="Default test" finished-at="2019-06-27T11:18:07Z" duration-ms="58120">
-      <class name="algorithms.FibonacciTest">
-        <test-method signature="FibonacciMemoized()[pri:0, instance:algorithms.FibonacciTest@233795b6]" started-at="2019-06-27T11:17:09Z" name="FibonacciMemoized" finished-at="2019-06-27T11:17:09Z" duration-ms="24" status="PASS">
+    <test started-at="2019-06-28T12:32:30Z" name="Default test" finished-at="2019-06-28T12:32:30Z" duration-ms="80">
+      <class name="algorithms.SortTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:algorithms.SortTest@79079097]" started-at="2019-06-28T12:32:30Z" name="Setup" finished-at="2019-06-28T12:32:30Z" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FibonacciMemoized -->
-        <test-method signature="FibonacciNaive()[pri:0, instance:algorithms.FibonacciTest@233795b6]" started-at="2019-06-27T11:17:09Z" name="FibonacciNaive" finished-at="2019-06-27T11:17:09Z" duration-ms="4" status="PASS">
+        </test-method> <!-- Setup -->
+        <test-method signature="BubbleSortTest()[pri:0, instance:algorithms.SortTest@79079097]" started-at="2019-06-28T12:32:30Z" name="BubbleSortTest" finished-at="2019-06-28T12:32:30Z" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FibonacciNaive -->
-        <test-method signature="RecordTimeMemoized()[pri:0, instance:algorithms.FibonacciTest@233795b6]" started-at="2019-06-27T11:17:09Z" name="RecordTimeMemoized" finished-at="2019-06-27T11:17:38Z" duration-ms="29613" status="PASS">
+        </test-method> <!-- BubbleSortTest -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:algorithms.SortTest@79079097]" started-at="2019-06-28T12:32:30Z" name="Setup" finished-at="2019-06-28T12:32:30Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- RecordTimeMemoized -->
-        <test-method signature="RecordTimeNaive()[pri:0, instance:algorithms.FibonacciTest@233795b6]" started-at="2019-06-27T11:17:38Z" name="RecordTimeNaive" finished-at="2019-06-27T11:18:07Z" duration-ms="28409" status="PASS">
+        </test-method> <!-- Setup -->
+        <test-method signature="InsertionSort()[pri:0, instance:algorithms.SortTest@79079097]" started-at="2019-06-28T12:32:30Z" name="InsertionSort" finished-at="2019-06-28T12:32:30Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- RecordTimeNaive -->
-      </class> <!-- algorithms.FibonacciTest -->
+        </test-method> <!-- InsertionSort -->
+        <test-method signature="MergeSortTest()[pri:0, instance:algorithms.SortTest@79079097]" started-at="2019-06-28T12:32:30Z" name="MergeSortTest" finished-at="2019-06-28T12:32:30Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MergeSortTest -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:algorithms.SortTest@79079097]" started-at="2019-06-28T12:32:30Z" name="Setup" finished-at="2019-06-28T12:32:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:algorithms.SortTest@79079097]" started-at="2019-06-28T12:32:30Z" name="Setup" finished-at="2019-06-28T12:32:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="QuickSort()[pri:0, instance:algorithms.SortTest@79079097]" started-at="2019-06-28T12:32:30Z" name="QuickSort" finished-at="2019-06-28T12:32:30Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuickSort -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:algorithms.SortTest@79079097]" started-at="2019-06-28T12:32:30Z" name="Setup" finished-at="2019-06-28T12:32:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="SelectionSort()[pri:0, instance:algorithms.SortTest@79079097]" started-at="2019-06-28T12:32:30Z" name="SelectionSort" finished-at="2019-06-28T12:32:30Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectionSort -->
+      </class> <!-- algorithms.SortTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
