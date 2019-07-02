@@ -3,6 +3,7 @@ package questions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import questions.arraysAndStrings.Compressor;
 import questions.arraysAndStrings.OneAwayDetector;
 import questions.arraysAndStrings.PermutationDetector;
 import questions.arraysAndStrings.URLConverter;
@@ -39,5 +40,15 @@ public class ArraysAndStringsTest {
 		Assert.assertFalse(OneAwayDetector.oneAwayB("pale", "able"));
 		Assert.assertTrue(OneAwayDetector.oneAwayB("pale", "pae"));
 		Assert.assertTrue(OneAwayDetector.oneAwayA("pale", "paled"));
+	}
+
+	@Test
+	public void Compress() {
+		Assert.assertEquals(Compressor.compress(" aabcccddk"), "a2bc3d2k");
+		Assert.assertEquals(Compressor.compress(" a"), "a");
+		Assert.assertEquals(Compressor.compress(" "), "");
+		Assert.assertEquals(Compressor.compressB("aabcccddk"), "a2bc3d2k");
+		Assert.assertEquals(Compressor.compressB("a"), "a");
+		Assert.assertEquals(Compressor.compressB(""), "");
 	}
 }
