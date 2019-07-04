@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="questions.ArraysAndStringsTest">
+      <class name="questions.TreesTest">
         <methods>
-          <include name="OneAway"/>
+          <include name="Setup"/>
+          <include name="IsSubTree"/>
         </methods>
-      </class> <!-- questions.ArraysAndStringsTest -->
+      </class> <!-- questions.TreesTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

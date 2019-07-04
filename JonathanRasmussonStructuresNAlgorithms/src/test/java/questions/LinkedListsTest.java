@@ -93,4 +93,21 @@ public class LinkedListsTest {
 		Assert.assertEquals(res.peekFirst(), 7);
 		Assert.assertEquals(res.peekLast(), 1);
 	}
+
+	@Test
+	public void FindLoop() {
+		LinkedList loopedList = LinkedList.createLoopedList();
+		list.addLast(1);
+		list.addLast(5);
+		list.addLast(3);
+		list.addFirst(9);
+		list.addFirst(9);
+		list.addFirst(9);
+		list.addFirst(8);
+		list.addFirst(8);
+		list.addFirst(8);
+
+		Assert.assertTrue(loopedList.findLoop());
+		Assert.assertFalse(list.findLoop());
+	}
 }
