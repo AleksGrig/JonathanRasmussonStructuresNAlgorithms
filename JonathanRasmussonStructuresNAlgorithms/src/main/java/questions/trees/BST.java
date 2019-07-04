@@ -1,6 +1,6 @@
 package questions.trees;
 
-public class Tree {
+public class BST {
 
 	private class Node {
 		int data;
@@ -72,7 +72,7 @@ public class Tree {
 		print(root.right);
 	}
 
-	public boolean hasSubtree(Tree subTree) {
+	public boolean hasSubtree(BST subTree) {
 		if(subTree != null) {
 			Node subTreeRoot = findElement(root, subTree.root.data);
 			if (subTreeRoot != null) {
@@ -83,7 +83,7 @@ public class Tree {
 	}
 
 	// Doesn't work properly
-	public boolean hasSubtreeB(Tree subtree) {
+	public boolean hasSubtreeB(BST subtree) {
 		String treeString = treeToString(root, "");
 		String subtreeString = treeToString(subtree.root, "");
 		return treeString.contains(subtreeString);
