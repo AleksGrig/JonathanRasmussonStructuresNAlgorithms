@@ -4,15 +4,15 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import questions.trees.Tree;
+import questions.trees.BST;
 
 public class TreesTest {
 
-	private Tree tree;
+	private BST tree;
 
 	@BeforeMethod
 	public void Setup() {
-		tree = new Tree();
+		tree = new BST();
 	}
 
 	@Test
@@ -72,14 +72,14 @@ public class TreesTest {
 		tree.addNode(6);
 		tree.addNode(8);
 
-		Tree tree2 = new Tree();
+		BST tree2 = new BST();
 		tree2.addNode(7);
 		tree2.addNode(6);
 		tree2.addNode(8);
 
 		Assert.assertTrue(tree.hasSubtree(tree2));
 
-		Tree tree3 = new Tree();
+		BST tree3 = new BST();
 		tree3.addNode(7);
 		tree3.addNode(6);
 		tree3.addNode(8);
@@ -87,7 +87,7 @@ public class TreesTest {
 
 		Assert.assertFalse(tree.hasSubtree(tree3));
 
-		Tree tree4 = new Tree();
+		BST tree4 = new BST();
 		tree4.addNode(7);
 
 		Assert.assertFalse(tree.hasSubtree(tree4));
