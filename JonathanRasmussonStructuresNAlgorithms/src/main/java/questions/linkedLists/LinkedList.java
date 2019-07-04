@@ -116,4 +116,32 @@ public class LinkedList {
 		}
 		return res;
 	}
+
+	public static LinkedList createLoopedList() {
+		LinkedList list = new LinkedList();
+		for(int i=0; i<10; i++) {
+			list.addLast(i);
+		}
+		
+		Node current = list.first;
+		for (int i = 0; i < 5; i++) {
+			current = current.next;
+		}
+		
+		list.last.next = current;
+		return list;
+	}
+
+	public boolean findLoop() {
+		Node slow = first;
+		Node fast = first;
+		while (fast != null && fast.next != null) {
+			slow = slow.next;
+			fast = fast.next.next;
+			if (slow == fast) {
+				return true;
+			}
+		}
+		return false;
+	}
 }

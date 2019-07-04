@@ -16,6 +16,9 @@ public class ArraysAndStringsTest {
 		Assert.assertTrue(UniqueCharacterDetector.isUnique("ab"));
 		Assert.assertFalse(UniqueCharacterDetector.isUnique("aa"));
 		Assert.assertFalse(UniqueCharacterDetector.isUnique("az23 tyui567890,.=+xcvbnm."));
+		Assert.assertTrue(UniqueCharacterDetector.isUniqueB("ab"));
+		Assert.assertFalse(UniqueCharacterDetector.isUniqueB("aa"));
+		Assert.assertFalse(UniqueCharacterDetector.isUniqueB("az23 tyui567890,.=+xcvbnm."));
 	}
 
 	@Test
