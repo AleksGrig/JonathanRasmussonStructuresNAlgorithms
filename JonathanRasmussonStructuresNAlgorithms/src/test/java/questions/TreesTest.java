@@ -5,6 +5,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import questions.trees.BST;
+import questions.trees.BinaryTree;
 
 public class TreesTest {
 
@@ -94,7 +95,7 @@ public class TreesTest {
 	}
 
 	@Test
-	public void GetDepth() {
+	public void GetDepthBST() {
 		Assert.assertEquals(tree.getDepth(), 0);
 
 		tree.addNode(5);
@@ -108,5 +109,26 @@ public class TreesTest {
 
 		tree.addNode(6);
 		Assert.assertEquals(tree.getDepth(), 3);
+	}
+
+	@Test
+	public void BinaryTree() {
+		BinaryTree tree = new BinaryTree();
+		tree.createTree1();
+
+		Assert.assertEquals(tree.waysWithSum(11), 3);
+	}
+
+	@Test
+	public void GetDepthBinaryTree() {
+		BinaryTree tree1 = new BinaryTree();
+		tree1.createTree1();
+
+		Assert.assertEquals(tree1.getDepth(), 4);
+
+		BinaryTree tree2 = new BinaryTree();
+		tree2.createTree2();
+
+		Assert.assertEquals(tree2.getDepth(), 2);
 	}
 }
