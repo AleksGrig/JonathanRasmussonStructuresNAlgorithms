@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="questions.StacksTest">
+      <class name="questions.ArraysAndStringsTest">
         <methods>
-          <include name="StackOfPlates"/>
-          <include name="Setup"/>
+          <include name="CaesarCipher"/>
         </methods>
-      </class> <!-- questions.StacksTest -->
+      </class> <!-- questions.ArraysAndStringsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

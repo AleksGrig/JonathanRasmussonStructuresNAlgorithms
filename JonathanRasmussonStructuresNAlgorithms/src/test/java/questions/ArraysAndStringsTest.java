@@ -3,6 +3,7 @@ package questions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import questions.arraysAndStrings.CaesarCipher;
 import questions.arraysAndStrings.Compressor;
 import questions.arraysAndStrings.FizzBuzz;
 import questions.arraysAndStrings.OneAwayDetector;
@@ -75,5 +76,14 @@ public class ArraysAndStringsTest {
 		Assert.assertTrue(RansomNote.canWrite("Pay", "yaP"));
 		Assert.assertTrue(RansomNote.canWrite("Pay me money", "ymaPmeynoe"));
 		Assert.assertFalse(RansomNote.canWrite("I want 100000", "twI1000"));
+	}
+
+	@Test
+	public void CaesarCipher() {
+		Assert.assertEquals(CaesarCipher.encrypt("A BC", -3), "X YZ");
+		Assert.assertEquals(CaesarCipher.encrypt("XYZ", 3), "ABC");
+
+		Assert.assertEquals(CaesarCipher.decrypt("XYZ", -3), "ABC");
+		Assert.assertEquals(CaesarCipher.decrypt("A BC", 3), "X YZ");
 	}
 }
