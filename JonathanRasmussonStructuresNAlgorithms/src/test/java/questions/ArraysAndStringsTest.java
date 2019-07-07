@@ -4,8 +4,11 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import questions.arraysAndStrings.Compressor;
+import questions.arraysAndStrings.FizzBuzz;
 import questions.arraysAndStrings.OneAwayDetector;
+import questions.arraysAndStrings.Palindromes;
 import questions.arraysAndStrings.PermutationDetector;
+import questions.arraysAndStrings.RansomNote;
 import questions.arraysAndStrings.URLConverter;
 import questions.arraysAndStrings.UniqueCharacterDetector;
 
@@ -53,5 +56,24 @@ public class ArraysAndStringsTest {
 		Assert.assertEquals(Compressor.compressB("aabcccddk"), "a2bc3d2k");
 		Assert.assertEquals(Compressor.compressB("a"), "a");
 		Assert.assertEquals(Compressor.compressB(""), "");
+	}
+
+	@Test
+	public void Palindromes() {
+		Assert.assertTrue(Palindromes.isPalindrome("abba"));
+		Assert.assertTrue(Palindromes.isPalindrome("dad"));
+		Assert.assertFalse(Palindromes.isPalindrome("false"));
+	}
+
+	@Test
+	public void FizzBuzz() {
+		FizzBuzz.fizzBuzz();
+	}
+
+	@Test
+	public void RansomNote() {
+		Assert.assertTrue(RansomNote.canWrite("Pay", "yaP"));
+		Assert.assertTrue(RansomNote.canWrite("Pay me money", "ymaPmeynoe"));
+		Assert.assertFalse(RansomNote.canWrite("I want 100000", "twI1000"));
 	}
 }
