@@ -10,6 +10,7 @@ import questions.arraysAndStrings.OneAwayDetector;
 import questions.arraysAndStrings.Palindromes;
 import questions.arraysAndStrings.PermutationDetector;
 import questions.arraysAndStrings.RansomNote;
+import questions.arraysAndStrings.SieveOfEratosthenes;
 import questions.arraysAndStrings.URLConverter;
 import questions.arraysAndStrings.UniqueCharacterDetector;
 
@@ -85,5 +86,15 @@ public class ArraysAndStringsTest {
 
 		Assert.assertEquals(CaesarCipher.decrypt("XYZ", -3), "ABC");
 		Assert.assertEquals(CaesarCipher.decrypt("A BC", 3), "X YZ");
+	}
+
+	@Test
+	public void SieveOfEratosthenes() {
+		boolean[] res = SieveOfEratosthenes.findPrimes(100);
+		for (int i = 0; i < res.length; i++) {
+			if (!res[i]) {
+				System.out.println(i);
+			}
+		}
 	}
 }
