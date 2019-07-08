@@ -10,6 +10,7 @@ import questions.arraysAndStrings.OneAwayDetector;
 import questions.arraysAndStrings.Palindromes;
 import questions.arraysAndStrings.PermutationDetector;
 import questions.arraysAndStrings.RansomNote;
+import questions.arraysAndStrings.Reverse;
 import questions.arraysAndStrings.SieveOfEratosthenes;
 import questions.arraysAndStrings.URLConverter;
 import questions.arraysAndStrings.UniqueCharacterDetector;
@@ -96,5 +97,10 @@ public class ArraysAndStringsTest {
 				System.out.println(i);
 			}
 		}
+	}
+
+	@Test
+	public void Reverse() {
+		Assert.assertEquals(Reverse.reverse("Hello!"), "!olleH");
 	}
 }
