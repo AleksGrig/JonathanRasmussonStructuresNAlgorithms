@@ -5,7 +5,7 @@
     <classes>
       <class name="questions.ArraysAndStringsTest">
         <methods>
-          <include name="CaesarCipher"/>
+          <include name="Anagram"/>
         </methods>
       </class> <!-- questions.ArraysAndStringsTest -->
     </classes>

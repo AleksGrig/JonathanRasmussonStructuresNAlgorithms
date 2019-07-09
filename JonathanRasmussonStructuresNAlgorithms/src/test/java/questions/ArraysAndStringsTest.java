@@ -3,6 +3,7 @@ package questions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import questions.arraysAndStrings.Anagram;
 import questions.arraysAndStrings.CaesarCipher;
 import questions.arraysAndStrings.Compressor;
 import questions.arraysAndStrings.FizzBuzz;
@@ -10,6 +11,8 @@ import questions.arraysAndStrings.OneAwayDetector;
 import questions.arraysAndStrings.Palindromes;
 import questions.arraysAndStrings.PermutationDetector;
 import questions.arraysAndStrings.RansomNote;
+import questions.arraysAndStrings.Reverse;
+import questions.arraysAndStrings.ReverseInt;
 import questions.arraysAndStrings.SieveOfEratosthenes;
 import questions.arraysAndStrings.URLConverter;
 import questions.arraysAndStrings.UniqueCharacterDetector;
@@ -96,5 +99,30 @@ public class ArraysAndStringsTest {
 				System.out.println(i);
 			}
 		}
+	}
+
+	@Test
+	public void Reverse() {
+		Assert.assertEquals(Reverse.reverse("Hello!"), "!olleH");
+	}
+
+	@Test
+	public void ReverseInt() {
+		Assert.assertEquals(ReverseInt.reverse(123), 321);
+		Assert.assertEquals(ReverseInt.reverse(-506), -605);
+
+		Assert.assertEquals(ReverseInt.reverseB(123), 321);
+		Assert.assertEquals(ReverseInt.reverseB(-506), -605);
+	}
+
+	@Test
+	public void Anagram() {
+		Assert.assertTrue(Anagram.isAnagram("arc", "car"));
+		Assert.assertTrue(Anagram.isAnagram("night", "thing"));
+		Assert.assertFalse(Anagram.isAnagram("dot", "cat"));
+
+		Assert.assertTrue(Anagram.isAnagramB("arc", "car"));
+		Assert.assertTrue(Anagram.isAnagramB("night", "thing"));
+		Assert.assertFalse(Anagram.isAnagramB("dot", "cat"));
 	}
 }
