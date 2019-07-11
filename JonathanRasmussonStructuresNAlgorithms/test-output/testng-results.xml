@@ -1,65 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-07-08T19:58:38Z" name="Default suite" finished-at="2019-07-08T19:58:39Z" duration-ms="299">
+  <suite started-at="2019-07-10T12:26:12Z" name="Default suite" finished-at="2019-07-10T12:26:12Z" duration-ms="58">
     <groups>
     </groups>
-    <test started-at="2019-07-08T19:58:38Z" name="Default test" finished-at="2019-07-08T19:58:39Z" duration-ms="299">
-      <class name="questions.ArraysAndStringsTest">
-        <test-method signature="Anagram()[pri:0, instance:questions.ArraysAndStringsTest@7eac9008]" started-at="2019-07-08T19:58:39Z" name="Anagram" finished-at="2019-07-08T19:58:39Z" duration-ms="31" status="PASS">
+    <test started-at="2019-07-10T12:26:12Z" name="Default test" finished-at="2019-07-10T12:26:12Z" duration-ms="58">
+      <class name="interview.AmazonInterviewTest">
+        <test-method signature="MergeLists()[pri:0, instance:interview.AmazonInterviewTest@477b4cdf]" started-at="2019-07-10T12:26:12Z" name="MergeLists" finished-at="2019-07-10T12:26:12Z" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Anagram -->
-        <test-method signature="CaesarCipher()[pri:0, instance:questions.ArraysAndStringsTest@7eac9008]" started-at="2019-07-08T19:58:39Z" name="CaesarCipher" finished-at="2019-07-08T19:58:39Z" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CaesarCipher -->
-        <test-method signature="Compress()[pri:0, instance:questions.ArraysAndStringsTest@7eac9008]" started-at="2019-07-08T19:58:39Z" name="Compress" finished-at="2019-07-08T19:58:39Z" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Compress -->
-        <test-method signature="FizzBuzz()[pri:0, instance:questions.ArraysAndStringsTest@7eac9008]" started-at="2019-07-08T19:58:39Z" name="FizzBuzz" finished-at="2019-07-08T19:58:39Z" duration-ms="16" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FizzBuzz -->
-        <test-method signature="IsPermutation()[pri:0, instance:questions.ArraysAndStringsTest@7eac9008]" started-at="2019-07-08T19:58:39Z" name="IsPermutation" finished-at="2019-07-08T19:58:39Z" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- IsPermutation -->
-        <test-method signature="OneAway()[pri:0, instance:questions.ArraysAndStringsTest@7eac9008]" started-at="2019-07-08T19:58:39Z" name="OneAway" finished-at="2019-07-08T19:58:39Z" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OneAway -->
-        <test-method signature="Palindromes()[pri:0, instance:questions.ArraysAndStringsTest@7eac9008]" started-at="2019-07-08T19:58:39Z" name="Palindromes" finished-at="2019-07-08T19:58:39Z" duration-ms="58" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Palindromes -->
-        <test-method signature="RansomNote()[pri:0, instance:questions.ArraysAndStringsTest@7eac9008]" started-at="2019-07-08T19:58:39Z" name="RansomNote" finished-at="2019-07-08T19:58:39Z" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- RansomNote -->
-        <test-method signature="Reverse()[pri:0, instance:questions.ArraysAndStringsTest@7eac9008]" started-at="2019-07-08T19:58:39Z" name="Reverse" finished-at="2019-07-08T19:58:39Z" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Reverse -->
-        <test-method signature="ReverseInt()[pri:0, instance:questions.ArraysAndStringsTest@7eac9008]" started-at="2019-07-08T19:58:39Z" name="ReverseInt" finished-at="2019-07-08T19:58:39Z" duration-ms="15" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ReverseInt -->
-        <test-method signature="SieveOfEratosthenes()[pri:0, instance:questions.ArraysAndStringsTest@7eac9008]" started-at="2019-07-08T19:58:39Z" name="SieveOfEratosthenes" finished-at="2019-07-08T19:58:39Z" duration-ms="19" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SieveOfEratosthenes -->
-        <test-method signature="URLify()[pri:0, instance:questions.ArraysAndStringsTest@7eac9008]" started-at="2019-07-08T19:58:39Z" name="URLify" finished-at="2019-07-08T19:58:39Z" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- URLify -->
-        <test-method signature="UniqueCharacters()[pri:0, instance:questions.ArraysAndStringsTest@7eac9008]" started-at="2019-07-08T19:58:39Z" name="UniqueCharacters" finished-at="2019-07-08T19:58:39Z" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UniqueCharacters -->
-      </class> <!-- questions.ArraysAndStringsTest -->
+        </test-method> <!-- MergeLists -->
+      </class> <!-- interview.AmazonInterviewTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
