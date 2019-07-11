@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="questions.ArraysAndStringsTest">
+      <class name="interview.AmazonInterviewTest">
         <methods>
-          <include name="Anagram"/>
+          <include name="MergeLists"/>
         </methods>
-      </class> <!-- questions.ArraysAndStringsTest -->
+      </class> <!-- interview.AmazonInterviewTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
