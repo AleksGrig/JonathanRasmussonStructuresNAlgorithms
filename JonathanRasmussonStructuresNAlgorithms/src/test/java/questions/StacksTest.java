@@ -5,6 +5,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import questions.stacks.DoublyLinkedList;
+import questions.stacks.MinStack;
 import questions.stacks.Stack;
 import questions.stacks.StackOfPlates;
 
@@ -88,5 +89,22 @@ public class StacksTest {
 		Assert.assertEquals(stack.pop(), 8);
 		Assert.assertEquals(stack.pop(), 9);
 		Assert.assertEquals(stack.pop(), 10);
+	}
+
+	@Test
+	public void MinStack() {
+		MinStack minStack = new MinStack();
+		minStack.push(2);
+		minStack.push(3);
+		minStack.push(1);
+
+		Assert.assertEquals(minStack.min(), 1);
+
+		minStack.pop();
+		Assert.assertEquals(minStack.min(), 2);
+
+		minStack.pop();
+		Assert.assertEquals(minStack.min(), 2);
+
 	}
 }
