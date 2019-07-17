@@ -37,6 +37,25 @@ public class BinarySearchTree {
 		return null;
 	}
 
+	public String find2(int key) {
+		Node node = find2(root, key);
+		return (node == null) ? null : node.value;
+	}
+
+	private Node find2(Node node, int key) {
+		if (node == null) {
+			return null;
+		} else {
+			if (key < node.key) {
+				return find2(node.left, key);
+			} else if (key > node.key) {
+				return find2(node.right, key);
+			} else {
+				return node;
+			}
+		}
+	}
+
 	public void insert(int key, String data) {
 		Node newNode = new Node(key, data);
 		if (root == null) {

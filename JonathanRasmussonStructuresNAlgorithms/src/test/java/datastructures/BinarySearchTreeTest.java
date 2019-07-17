@@ -31,9 +31,9 @@ public class BinarySearchTreeTest {
 		Assert.assertEquals(bst.find(3), "c");
 		Assert.assertEquals(bst.find(4), "d");
 		Assert.assertEquals(bst.find(5), "e");
-		Assert.assertEquals(bst.find(7), "g");
-		Assert.assertEquals(bst.find(8), "h");
-		Assert.assertEquals(bst.find(10), null);
+		Assert.assertEquals(bst.find2(7), "g");
+		Assert.assertEquals(bst.find2(8), "h");
+		Assert.assertEquals(bst.find2(10), null);
 	}
 
 	@Test
