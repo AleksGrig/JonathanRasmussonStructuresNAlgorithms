@@ -99,10 +99,10 @@ public class BinarySearchTree {
 	}
 
 	public int min() {
-		if(root == null) {
+		if (root == null) {
 			throw new IllegalStateException("Tree is empty");
 		} else {
-		Node current = root;
+			Node current = root;
 			while (current.left != null) {
 				current = current.left;
 			}
